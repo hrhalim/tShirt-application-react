@@ -1,0 +1,34 @@
+.tshirt-wrapper {
+    display: grid;
+    grid-template-columns: 3fr 1fr; 
+    justify-content: space-between;
+}
+.tshirt-left {
+    background-color: darkgray;
+    padding: 10px;
+    color: #000; 
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+
+}
+.tshirt-right {
+    background-color: brown;
+    padding: 10px;
+    color: #fff; 
+}
+.single-tshirt {
+    background-color: #fff;
+    padding: 10px;
+}
+
+.single-tshirt img {
+    width: 100%;
+    height: 260px;
+}
+.btn-buynow {
+    background-color: green;
+    color: #fff;
+    font-size: 15px;
+    border: 0;
+}
