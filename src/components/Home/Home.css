@@ -32,3 +32,8 @@
     font-size: 15px;
     border: 0;
 }
+.order-box p {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
